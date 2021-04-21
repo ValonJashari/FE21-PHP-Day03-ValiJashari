@@ -12,11 +12,13 @@ for($i=0;$i<50; $i++)
 
 echo"<br><h3>The while loop example<br></h3><br>";
 $i=0;
-while($i<49)
+while($i<50)
 {
     $fullName=$name. " " .$surname;
     
     echo "The index value of i=$i and the name=$fullName.<br>";
+    //if you put $i++ before the echo it will change the value before it runs for the first time
+
     $i++;
 }
 
@@ -29,4 +31,4 @@ do{
     echo "The index value of i=$i and the name=$fullName.<br>";
     $i++;
 }
-while($i<49);
+while($i<50);
