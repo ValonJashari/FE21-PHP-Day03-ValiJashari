@@ -11,21 +11,22 @@ for($i=0;$i<50; $i++)
 }
 
 echo"<br><h3>The while loop example<br></h3><br>";
-$i=-1;
+$i=0;
 while($i<49)
 {
     $fullName=$name. " " .$surname;
-    $i++;
+    
     echo "The index value of i=$i and the name=$fullName.<br>";
-
+    $i++;
 }
 
 echo"<br><h3>The do while loop example<br></h3><br>";
-$i=-1;
+$i=0;
 do{
 
     $fullName=$name. " " .$surname;
-    $i++;
+    
     echo "The index value of i=$i and the name=$fullName.<br>";
+    $i++;
 }
 while($i<49);
